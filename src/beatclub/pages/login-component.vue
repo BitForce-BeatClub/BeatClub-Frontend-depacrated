@@ -1,0 +1,115 @@
+<template>
+  <v-container>
+
+    <v-img  class="mx-auto my-12" max-width="374" src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/logo.png?raw=true"></v-img>
+
+    <v-card-title  class="text-wlight font-Archivo mx-auto">SIGN IN TO CONTINUE</v-card-title>
+
+    <v-card
+      elevation="0" color="" max-width="700" class="mx-auto my-12 font-Poppins">
+      <v-text-field
+        v-model="user"
+        label="Email"
+        prepend-icon="mdi-email"
+      />
+
+      <v-row class="d-flex justify-end mb-2">
+        <v-btn variant="text">forgot password?</v-btn>
+      </v-row>
+
+      <v-text-field
+        v-model="password"
+        label="Password"
+        :type=" showPassword ? 'text' : 'password' "
+        prepend-icon="mdi-lock"
+        :append-icon=" showPassword ? 'mdi-eye':'mdi-eye-off'"
+        @click:append=" showPassword =! showPassword "
+      />
+
+      <v-btn @click.prevent="login" block color="primary">Sign in</v-btn>
+
+      <v-card-text class="d-flex justify-center text-h6 text-wlight" >OR</v-card-text>
+
+      <v-btn block color="blight" prepend-icon="mdi-google">Sign in with Google</v-btn>
+
+      <v-card-text class="text-center text-h6 text-wlight ">Dont you have an account?
+        <v-btn variant="text" class="mb-1 text-h6 text-warning text-decoration-underline">
+          Sign up
+        </v-btn>
+      </v-card-text>
+
+    </v-card>
+    <v-alert v-if="error"
+             prominent
+             type="error"
+             variant="outlined">
+      {{error_msg}}
+    </v-alert>
+  </v-container>
+</template>
+
+<script>
+import axios from 'axios';
+export default {
+  name: 'Login',
+
+  data: () => ({
+    showPassword: false,
+    user:"",
+    password:"",
+    error:false,
+    error_msg:""
+  }),
+
+  methods:{
+    login(){
+      let json={
+        "email": this.user,
+        "password": this.password
+      };
+      axios.get('http://localhost:8080/api/v1/').then(
+        data=>{
+          if(data.data.email === this.user){
+            console.log("todo correcto");
+            //this.error = false
+          } else{
+            console.log("error")
+            //this.error=true;
+            //this.error_msg = data.data.result.error_msg;
+          }
+        }
+      )
+    }
+
+  }
+
+}
+</script>
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Bebas+Neue&family=Poppins:wght@600&display=swap');
+
+.v-card{
+  background-color: transparent;
+}
+
+.font-Bebas{
+  font-size: 48px;
+  font-family: 'Bebas Neue', cursive;
+  color: #F5CB5C;
+  justify-content: center;
+}
+
+.font-Poppins{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #E8EDE0;
+}
+
+.font-Archivo{
+  font-size: 48px;
+  font-family: 'Archivo', sans-serif;
+  justify-content: center;
+}
+
+</style>
