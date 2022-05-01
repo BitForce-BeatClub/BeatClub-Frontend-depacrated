@@ -15,6 +15,7 @@ const firebaseConfig = {
   appId: "1:1042692386525:web:2652c383c7250939fb7534",
   measurementId: "G-5YSJSTF7N9"
 };
+
 firebase.initializeApp(firebaseConfig);
 
 createApp(App).use(router).use(vuetify).mount("#app");

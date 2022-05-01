@@ -19,18 +19,17 @@ const router = createRouter({
     {
       path: "/about",
       name: "about",
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import("../views/AboutView.vue"),
     },
     {
       path: "/login",
       name: "login",
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import("../beatclub/pages/login-component.vue"),
+      component: () => import("../beatclub/views/SignIn-component.vue"),
+    },
+    {
+      path: "/signup",
+      name: "signUp",
+      component: () => import("../beatclub/views/SignUp-component.vue")
     },
   ],
 });
