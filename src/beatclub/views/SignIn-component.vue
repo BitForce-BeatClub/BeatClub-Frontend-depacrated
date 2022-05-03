@@ -25,7 +25,7 @@
           @click:append="showPassword = !showPassword"
         />
 
-        <v-btn @click.prevent="login" block color="primary">Sign in</v-btn>
+        <v-btn @click.prevent="login" plain to="/homebeatclub" block color="primary">Sign in</v-btn>
 
         <v-card-text class="d-flex justify-center text-h6 text-wlight"
         >OR

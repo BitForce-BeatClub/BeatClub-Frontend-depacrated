@@ -31,6 +31,11 @@ const router = createRouter({
       name: "signUp",
       component: () => import("../beatclub/views/SignUp-component.vue")
     },
+    {
+      path: "/homebeatclub",
+      name: "homebeatclub",
+      component: () => import("../beatclub/views/BeatClub-home.vue")
+    },
   ],
 });
 
