@@ -23,14 +23,12 @@
       <v-btn plain to="" color="white">
         Advertisements
       </v-btn>
-
       <v-btn plain to="" color="white">
         Profile
         <v-icon>mdi-account</v-icon>
       </v-btn>
-
-      <v-btn plain to="/singUp" color="white">
-        Sing Up
+      <v-btn plain to="/Login" color="white">
+        Sign Up │Sign in
       </v-btn>
     </v-app-bar>
 
@@ -45,7 +43,7 @@
 
 <script>
 export default {
-  name: "homebeatclub"
+  name: "Main"
 }
 </script>
 

@@ -6,7 +6,7 @@ const router = createRouter({
   routes: [
     {
       path:'/:pathMatch(.*)*',
-      redirect:'/login',
+      redirect:'/Main',
     },
     {
       path: "/home",
@@ -32,9 +32,9 @@ const router = createRouter({
       component: () => import("../beatclub/views/SignUp-component.vue")
     },
     {
-      path: "/homebeatclub",
-      name: "homebeatclub",
-      component: () => import("../beatclub/views/BeatClub-home.vue")
+      path: "/Main",
+      name: "Main",
+      component: () => import("../beatclub/views/Main-component.vue")
     },
   ],
 });
