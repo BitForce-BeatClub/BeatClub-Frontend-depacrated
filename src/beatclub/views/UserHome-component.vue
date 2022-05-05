@@ -1,41 +1,49 @@
 <template>
   <div class="container">
 
-    <v-app-bar
-      color="deep-purple accent-4"
-      dense
-      dark
-    >
-      <!--      <v-app-bar-nav-icon></v-app-bar-nav-icon>-->
-      <v-toolbar-title >
+    <v-app-bar>
+      <v-btn to="/UserHome">
         <v-img
           style="height: 50px; width: 100px"
           src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/logo.png?raw=true"
         ></v-img>
-
-      </v-toolbar-title>
-
+      </v-btn>
+      <v-btn icon>
+        <v-icon>mdi-magnify</v-icon>
+      </v-btn>
       <v-spacer></v-spacer>
+      <v-btn to="/Profile">
+      <span class="material-symbols-rounded">
+      account_circle
+      </span>
+        <strong>Hi User</strong>
+      </v-btn>
+      <v-btn>
+      <span class="material-symbols-rounded">
+      chat_bubble
+      </span>
+        <p>Messages</p>
+      </v-btn>
+      <v-btn >
+        CreatorHub
+      </v-btn>
+      <v-btn>
+      <span class="material-symbols-rounded">
+      cloud_upload
+      </span>
+        <p>Upload</p>
+      </v-btn>
+      <v-btn>
+      <span class="material-symbols-rounded">
+      shopping_cart
+      </span>
+        <p>Shooping</p>
+      </v-btn>
 
-      <v-btn plain to="" color="white">
-        Top Producers
-      </v-btn>
-      <v-btn plain to="" color="white">
-        Advertisements
-      </v-btn>
-
-      <v-btn plain to="" color="white">
-        Profile
-        <v-icon>mdi-account</v-icon>
-      </v-btn>
-
-      <v-btn plain to="/singUp" color="white">
-        Sing Up
-      </v-btn>
     </v-app-bar>
 
     <div class="img-container">
-      <img class="img-portada" src="src/assets/portada.png" alt="">
+      <img class="img-portada" src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/background.png?raw=true" alt="">
     </div>
     <div style="text-align: left; margin-top: 20px" >
       <h1>Recommendations</h1>
@@ -50,6 +58,11 @@ export default {
 </script>
 
 <style scoped>
+@import "https://fonts.sandbox.google.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200";
+@import "https://fonts.sandbox.google.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200";
+@import "https://fonts.sandbox.google.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200";
+@import "https://fonts.sandbox.google.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+@import "https://fonts.sandbox.google.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200";
 .container{
   margin-top: 20px;
   /*border: 2px solid red;*/

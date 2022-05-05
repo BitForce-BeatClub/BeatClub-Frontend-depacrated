@@ -1,7 +1,10 @@
 <template>
   <v-app-bar>
-    <v-btn to="/Home">
-      <h1>BeatClub</h1>
+    <v-btn to="/UserHome">
+      <v-img
+        style="height: 50px; width: 100px"
+        src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/logo.png?raw=true"
+      ></v-img>
     </v-btn>
     <v-btn icon>
       <v-icon>mdi-magnify</v-icon>

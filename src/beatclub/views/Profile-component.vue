@@ -1,7 +1,10 @@
 <template>
   <v-app-bar>
-    <v-btn to="/Home">
-      <h1>BeatClub</h1>
+    <v-btn to="/UserHome">
+      <v-img
+        style="height: 50px; width: 100px"
+        src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/logo.png?raw=true"
+      ></v-img>
     </v-btn>
     <v-btn icon>
       <v-icon>mdi-magnify</v-icon>
@@ -79,11 +82,6 @@ export default {
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Bebas+Neue&family=Poppins:wght@600&display=swap");
-@import "https://fonts.sandbox.google.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200";
-@import "https://fonts.sandbox.google.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200";
-@import "https://fonts.sandbox.google.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200";
-@import "https://fonts.sandbox.google.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-@import "https://fonts.sandbox.google.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200";
 .font-Bebas {
   font-size: 48px;
   font-family: "Bebas Neue", cursive;
