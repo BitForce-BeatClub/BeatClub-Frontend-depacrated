@@ -40,7 +40,7 @@
             <!--TOODO: icon="mdi-checkbox-blank-circle-outline " !-->
         </v-row>
 
-        <v-btn @click.prevent="login" plain to="/homebeatclub" block color="primary">Sign in</v-btn>
+        <v-btn @click.prevent="login" plain to="/UserHome" block color="primary">Sign in</v-btn>
 
         <v-card-text class="d-flex justify-center text-h6 text-wlight"
         >OR</v-card-text
