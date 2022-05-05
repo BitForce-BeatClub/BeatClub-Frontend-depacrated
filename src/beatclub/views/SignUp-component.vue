@@ -38,18 +38,11 @@
         @click:append="showPassword1 = !showPassword1"
       />
 
-      <v-btn
-        @click.prevent="login"
-        plain
-        to="/homebeatclub"
-        block
-        color="primary"
-        >Sign up</v-btn
-      >
+      <v-btn plain to="/homebeatclub" block="" color="primary">Sign up</v-btn>
 
       <v-card-text class="d-flex justify-center text-h6">OR</v-card-text>
 
-      <v-btn block color="white" prepend-icon="mdi-google"
+      <v-btn block="" color="white" prepend-icon="mdi-google"
         >Sign up with Google</v-btn
       >
       <v-card-text class="text-center text-h6"
