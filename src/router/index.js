@@ -41,6 +41,16 @@ const router = createRouter({
       name: "UserHome",
       component: () => import("../beatclub/views/UserHome-component.vue")
     },
+    {
+      path: "/Profile",
+      name: "Profile",
+      component: () => import("../beatclub/views/Profile-component.vue")
+    },
+    {
+      path: "/Settings",
+      name: "Settings",
+      component: () => import("../beatclub/views/Settings-component.vue")
+    },
   ],
 });
 
