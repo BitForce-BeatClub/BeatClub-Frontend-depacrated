@@ -43,7 +43,7 @@
     </v-app-bar>
 
     <div class="img-container">
-      <img class="img-portada" src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/background.png?raw=true" alt="">
+      <h1>the <span style="color: #D90429;">world’s #1</span>  platform for<br> music production</h1>
     </div>
     <div style="text-align: left; margin-top: 20px" >
       <h1>Recommendations</h1>
@@ -67,13 +67,26 @@ export default {
   margin-top: 20px;
   /*border: 2px solid red;*/
 }
-.img-portada{
-  height: 300px;
-  width: 100%;
-}
-
 .img-container{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Bebas Neue';
+  height: 45vh;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.1),
+    rgba(0,0,0,0.1)
+  )
+  ,url(src/assets/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center ;
+}
+.img-container h1{
+  margin-left: 2rem;
+  font-size: 4rem;
+  text-align: left;
 }
 </style>
 

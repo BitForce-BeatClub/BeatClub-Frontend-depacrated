@@ -1,6 +1,8 @@
 <template>
   <div class="container">
-    <v-app-bar>
+    <v-app-bar  color="deep-purple accent-4"
+                dense
+                dark>
       <!--      <v-app-bar-nav-icon></v-app-bar-nav-icon>-->
       <v-toolbar-title >
         <v-btn>
@@ -13,7 +15,6 @@
         <v-btn icon>
           <v-icon>mdi-magnify</v-icon>
         </v-btn>
-        What are you looking for
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
@@ -52,16 +53,12 @@ export default {
   margin-top: 20px;
   /*border: 2px solid red;*/
 }
-.img-portada{
-  height: 600px;
-  width: 100%;
-}
 .img-container{
   display: flex;
   justify-content: center;
   flex-direction: column;
   font-family: 'Bebas Neue';
-  height: 40vh;
+  height: 45vh;
   background-image: linear-gradient(
     0deg,
     rgba(0,0,0,0.1),
@@ -73,6 +70,7 @@ export default {
   background-position: center ;
 }
 .img-container h1{
+  margin-left: 2rem;
   font-size: 4rem;
   text-align: left;
 }
