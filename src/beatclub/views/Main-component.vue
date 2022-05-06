@@ -2,19 +2,19 @@
   <div class="container">
     <v-app-bar color="nav_color" prominent>
       <v-app-bar-nav-icon
-        variant="text"
-        @click.stop="drawer = !drawer"
+          variant="text"
+          @click.stop="drawer = !drawer"
       ></v-app-bar-nav-icon>
 
       <v-toolbar-title>
         <v-btn to="/">
           <v-img
-            style="height: 50px; width: 100px"
-            src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/logo.png?raw=true"
+              style="height: 50px; width: 100px"
+              src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/logo.png?raw=true"
           ></v-img>
         </v-btn>
         <v-btn icon="mdi-magnify"> </v-btn
-      ></v-toolbar-title>
+        ></v-toolbar-title>
 
       <v-spacer></v-spacer>
       <v-btn plain to="" color="white"> Explore </v-btn>
@@ -36,24 +36,27 @@
       <v-card class="mx-auto my-12" max-width="374">
         <template>
           <v-progress-linear
-            color="deep-purple"
-            height="10"
-            indeterminate
+              color="deep-purple"
+              height="10"
+              indeterminate
           ></v-progress-linear>
         </template>
 
         <v-img
-          height="250"
-          src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206.png?raw=true"
+            height="250"
+            src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206.png?raw=true"
         ></v-img>
 
-        <v-card-title>Cafe Badilico</v-card-title>
+        <v-card-title>Plan A</v-card-title>
 
         <v-card-text>
           <v-row align="center" class="mx-0"> </v-row>
 
-          <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
-
+          <div class="my-4 text-subtitle-1"> Paulo Londra</div>
+          <div>
+            Small plates, salads & sandwiches - an intimate setting with 12
+            indoor seats plus patio seating.
+          </div>
         </v-card-text>
 
         <v-divider class="mx-4"></v-divider>
@@ -62,23 +65,23 @@
       <v-card class="mx-auto my-12" max-width="374">
         <template>
           <v-progress-linear
-            color="deep-purple"
-            height="10"
-            indeterminate
+              color="deep-purple"
+              height="10"
+              indeterminate
           ></v-progress-linear>
         </template>
 
         <v-img
-          height="250"
-          src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206-4.png?raw=true"
+            height="250"
+            src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206-4.png?raw=true"
         ></v-img>
 
-        <v-card-title>Cafe Badilico</v-card-title>
+        <v-card-title> Fuera del mercado</v-card-title>
 
         <v-card-text>
           <v-row align="center" class="mx-0"> </v-row>
 
-          <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
+          <div class="my-4 text-subtitle-1">Danny Ocean</div>
 
           <div>
             Small plates, salads & sandwiches - an intimate setting with 12
@@ -92,23 +95,23 @@
       <v-card class="mx-auto my-12" max-width="374">
         <template>
           <v-progress-linear
-            color="deep-purple"
-            height="10"
-            indeterminate
+              color="deep-purple"
+              height="10"
+              indeterminate
           ></v-progress-linear>
         </template>
 
         <v-img
-          height="250"
-          src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206-3.png?raw=true"
+            height="250"
+            src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206-3.png?raw=true"
         ></v-img>
 
-        <v-card-title>Cafe Badilico</v-card-title>
+        <v-card-title>Una noche en medellin</v-card-title>
 
         <v-card-text>
           <v-row align="center" class="mx-0"> </v-row>
 
-          <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
+          <div class="my-4 text-subtitle-1">Cris Mj</div>
 
           <div>
             Small plates, salads & sandwiches - an intimate setting with 12
@@ -122,23 +125,23 @@
       <v-card class="mx-auto my-12" max-width="374">
         <template>
           <v-progress-linear
-            color="deep-purple"
-            height="10"
-            indeterminate
+              color="deep-purple"
+              height="10"
+              indeterminate
           ></v-progress-linear>
         </template>
 
         <v-img
-          height="250"
-          src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206-1.png?raw=true"
+            height="250"
+            src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206-1.png?raw=true"
         ></v-img>
 
-        <v-card-title>Cafe Badilico</v-card-title>
+        <v-card-title>Enemy(from the series Arca)</v-card-title>
 
         <v-card-text>
           <v-row align="center" class="mx-0"> </v-row>
 
-          <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
+          <div class="my-4 text-subtitle-1">Imagine Dragons J.I.D</div>
 
           <div>
             Small plates, salads & sandwiches - an intimate setting with 12
@@ -152,23 +155,23 @@
       <v-card class="mx-auto my-12" max-width="374">
         <template>
           <v-progress-linear
-            color="deep-purple"
-            height="10"
-            indeterminate
+              color="deep-purple"
+              height="10"
+              indeterminate
           ></v-progress-linear>
         </template>
 
         <v-img
-          height="250"
-          src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206-2.png?raw=true"
+            height="250"
+            src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206-2.png?raw=true"
         ></v-img>
 
-        <v-card-title>Cafe Badilico</v-card-title>
+        <v-card-title>Booker T</v-card-title>
 
         <v-card-text>
           <v-row align="center" class="mx-0"> </v-row>
 
-          <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
+          <div class="my-4 text-subtitle-1">Bad Bunny</div>
 
           <div>
             Small plates, salads & sandwiches - an intimate setting with 12
@@ -179,6 +182,313 @@
         <v-divider class="mx-4"></v-divider>
       </v-card>
     </v-row>
+    <div style="text-align: left; margin-top: 20px; padding-left: 60px">
+      <h1>Top Producer</h1>
+    </div>
+
+    <v-row>
+      <v-card class="mx-auto my-12" max-width="374">
+        <template>
+          <v-progress-linear
+              color="deep-purple"
+              height="10"
+              indeterminate
+          ></v-progress-linear>
+        </template>
+
+        <v-img
+            height="250"
+            src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/productores/image%206-1.png?raw=true"
+        ></v-img>
+
+        <v-card-title>230 followers</v-card-title>
+
+        <v-card-text>
+          <v-row align="center" class="mx-0"> </v-row>
+
+          <div class="my-4 text-subtitle-1">Luny Tunes</div>
+
+        </v-card-text>
+
+        <v-divider class="mx-4"></v-divider>
+      </v-card>
+
+      <v-card class="mx-auto my-12" max-width="374">
+        <template>
+          <v-progress-linear
+              color="deep-purple"
+              height="10"
+              indeterminate
+          ></v-progress-linear>
+        </template>
+
+        <v-img
+            height="250"
+            src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/productores/image%206-3.png?raw=true"
+        ></v-img>
+
+        <v-card-title>562 followers</v-card-title>
+
+        <v-card-text>
+          <v-row align="center" class="mx-0"> </v-row>
+
+          <div class="my-4 text-subtitle-1">Tainy</div>
+
+          <div>
+            Small plates, salads & sandwiches - an intimate setting with 12
+            indoor seats plus patio seating.
+          </div>
+        </v-card-text>
+
+        <v-divider class="mx-4"></v-divider>
+      </v-card>
+
+      <v-card class="mx-auto my-12" max-width="374">
+        <template>
+          <v-progress-linear
+              color="deep-purple"
+              height="10"
+              indeterminate
+          ></v-progress-linear>
+        </template>
+
+        <v-img
+            height="250"
+            src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206-3.png?raw=true"
+        ></v-img>
+
+        <v-card-title>640 followers</v-card-title>
+
+        <v-card-text>
+          <v-row align="center" class="mx-0"> </v-row>
+
+          <div class="my-4 text-subtitle-1">Bizarrap</div>
+
+          <div>
+            Small plates, salads & sandwiches - an intimate setting with 12
+            indoor seats plus patio seating.
+          </div>
+        </v-card-text>
+
+        <v-divider class="mx-4"></v-divider>
+      </v-card>
+
+      <v-card class="mx-auto my-12" max-width="374">
+        <template>
+          <v-progress-linear
+              color="deep-purple"
+              height="10"
+              indeterminate
+          ></v-progress-linear>
+        </template>
+
+        <v-img
+            height="250"
+            src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206-1.png?raw=true"
+        ></v-img>
+
+        <v-card-title>730 followers</v-card-title>
+
+        <v-card-text>
+          <v-row align="center" class="mx-0"> </v-row>
+
+          <div class="my-4 text-subtitle-1">Ovy On The Drums</div>
+
+          <div>
+            Small plates, salads & sandwiches - an intimate setting with 12
+            indoor seats plus patio seating.
+          </div>
+        </v-card-text>
+
+        <v-divider class="mx-4"></v-divider>
+      </v-card>
+
+      <v-card class="mx-auto my-12" max-width="374">
+        <template>
+          <v-progress-linear
+              color="deep-purple"
+              height="10"
+              indeterminate
+          ></v-progress-linear>
+        </template>
+
+        <v-img
+            height="250"
+            src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206-2.png?raw=true"
+        ></v-img>
+
+        <v-card-title>3405 followers</v-card-title>
+
+        <v-card-text>
+          <v-row align="center" class="mx-0"> </v-row>
+
+          <div class="my-4 text-subtitle-1">El Chombo</div>
+
+          <div>
+            Small plates, salads & sandwiches - an intimate setting with 12
+            indoor seats plus patio seating.
+          </div>
+        </v-card-text>
+
+        <v-divider class="mx-4"></v-divider>
+      </v-card>
+    </v-row>
+
+
+
+    <div style="text-align: left; margin-top: 20px; padding-left: 60px">
+      <h1>Top Producer</h1>
+    </div>
+    <v-row>
+      <v-card class="mx-auto my-12" max-width="374">
+        <template>
+          <v-progress-linear
+              color="deep-purple"
+              height="10"
+              indeterminate
+          ></v-progress-linear>
+        </template>
+
+        <v-img
+            height="250"
+            src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/productores/image%206-1.png?raw=true"
+        ></v-img>
+
+        <v-card-title>230 followers</v-card-title>
+
+        <v-card-text>
+          <v-row align="center" class="mx-0"> </v-row>
+
+          <div class="my-4 text-subtitle-1">Luny Tunes</div>
+
+        </v-card-text>
+
+        <v-divider class="mx-4"></v-divider>
+      </v-card>
+
+      <v-card class="mx-auto my-12" max-width="374">
+        <template>
+          <v-progress-linear
+              color="deep-purple"
+              height="10"
+              indeterminate
+          ></v-progress-linear>
+        </template>
+
+        <v-img
+            height="250"
+            src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/productores/image%206-3.png?raw=true"
+        ></v-img>
+
+        <v-card-title>562 followers</v-card-title>
+
+        <v-card-text>
+          <v-row align="center" class="mx-0"> </v-row>
+
+          <div class="my-4 text-subtitle-1">Tainy</div>
+
+          <div>
+            Small plates, salads & sandwiches - an intimate setting with 12
+            indoor seats plus patio seating.
+          </div>
+        </v-card-text>
+
+        <v-divider class="mx-4"></v-divider>
+      </v-card>
+
+      <v-card class="mx-auto my-12" max-width="374">
+        <template>
+          <v-progress-linear
+              color="deep-purple"
+              height="10"
+              indeterminate
+          ></v-progress-linear>
+        </template>
+
+        <v-img
+            height="250"
+            src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206-3.png?raw=true"
+        ></v-img>
+
+        <v-card-title>640 followers</v-card-title>
+
+        <v-card-text>
+          <v-row align="center" class="mx-0"> </v-row>
+
+          <div class="my-4 text-subtitle-1">Bizarrap</div>
+
+          <div>
+            Small plates, salads & sandwiches - an intimate setting with 12
+            indoor seats plus patio seating.
+          </div>
+        </v-card-text>
+
+        <v-divider class="mx-4"></v-divider>
+      </v-card>
+
+      <v-card class="mx-auto my-12" max-width="374">
+        <template>
+          <v-progress-linear
+              color="deep-purple"
+              height="10"
+              indeterminate
+          ></v-progress-linear>
+        </template>
+
+        <v-img
+            height="250"
+            src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206-1.png?raw=true"
+        ></v-img>
+
+        <v-card-title>730 followers</v-card-title>
+
+        <v-card-text>
+          <v-row align="center" class="mx-0"> </v-row>
+
+          <div class="my-4 text-subtitle-1">Ovy On The Drums</div>
+
+          <div>
+            Small plates, salads & sandwiches - an intimate setting with 12
+            indoor seats plus patio seating.
+          </div>
+        </v-card-text>
+
+        <v-divider class="mx-4"></v-divider>
+      </v-card>
+
+      <v-card class="mx-auto my-12" max-width="374">
+        <template>
+          <v-progress-linear
+              color="deep-purple"
+              height="10"
+              indeterminate
+          ></v-progress-linear>
+        </template>
+
+        <v-img
+            height="250"
+            src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206-2.png?raw=true"
+        ></v-img>
+
+        <v-card-title>3405 followers</v-card-title>
+
+        <v-card-text>
+          <v-row align="center" class="mx-0"> </v-row>
+
+          <div class="my-4 text-subtitle-1">El Chombo</div>
+
+          <div>
+            Small plates, salads & sandwiches - an intimate setting with 12
+            indoor seats plus patio seating.
+          </div>
+        </v-card-text>
+
+        <v-divider class="mx-4"></v-divider>
+      </v-card>
+    </v-row>
+
+
+
   </div>
 </template>
 
@@ -210,8 +520,8 @@ export default {
       0deg,
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.1)
-    ),
-    url(src/assets/background.png);
+  ),
+  url(src/assets/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
