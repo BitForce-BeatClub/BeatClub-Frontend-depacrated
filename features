@@ -1,4 +1,4 @@
-Scenario: Registrarse
+Scenario:Registrarse
 When seleccionas la opción sign up
 Then entraras al formulario para registrarte
 
