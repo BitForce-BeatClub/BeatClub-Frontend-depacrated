@@ -13,8 +13,8 @@
 
       <v-btn plain to="" color="white"> Top Producers </v-btn>
       <v-btn plain to="" color="white"> Advertisements </v-btn>
-
-      <v-btn plain to="" color="white">
+      <v-btn plain to="/message"> Message </v-btn>
+      <v-btn plain to="/profile" color="white">
         Profile
         <v-icon>mdi-account</v-icon>
       </v-btn>

@@ -14,8 +14,9 @@
         </v-img>
 
         <v-spacer>
-          <v-btn plain to="/signup"> Sing Up </v-btn>
-          <v-btn plain to="/signin"> Sing In </v-btn>
+          <v-btn plain to="/signup"> SignUp</v-btn>
+          <v-btn plain to="/signin"> Sign In </v-btn>
+
         </v-spacer>
 
       </v-app-bar>
