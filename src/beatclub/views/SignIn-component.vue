@@ -7,7 +7,7 @@
     ></v-img>
 
     <v-card-title style="font-size: 34px" class="font-Archivo mx-auto"
-      >Sign in to continue
+    >Sign in to continue
     </v-card-title>
 
     <v-form style="max-width: 800px" class="mx-auto">
@@ -22,7 +22,7 @@
         to="/"
         variant="text"
         class="d-flex justify-end mb-2 text-white"
-        >forgot password?</router-link
+      >forgot password?</router-link
       >
       <v-text-field
         v-model="password"
@@ -33,29 +33,28 @@
         @click:append="showPassword = !showPassword"
       />
 
-      <v-btn to="/home" plain block="" color="primary">Sign in</v-btn>
+      <v-btn to="/userHome" plain block="" color="primary">Sign in</v-btn>
 
       <v-card-text class="d-flex justify-center text-h6">OR </v-card-text>
 
       <v-btn block="" color="white" prepend-icon="mdi-google"
-        >Sign in with Google
+      >Sign in with Google
       </v-btn>
 
       <v-card-text class="text-center text-h6"
-        >Dont you have an account?
+      >Dont you have an account?
         <router-link to="/signup" class="text-warning"> Sign up </router-link>
       </v-card-text>
     </v-form>
     <!--   <pre>{{ $data }}</pre>
     -->
-    <pre>{{ $data }}</pre>
   </v-container>
 </template>
 
 <script>
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
-  name: "Login",
+  name: "signIn",
 
   data: () => ({
     showPassword: false,
