@@ -4,7 +4,7 @@
 
 $font-family:'Poppins';
 $font-size: 300px;
-$color: #e8ede0;
+$color: #ffffff;
 .v-app-bar{color:#0D1B29;}
 .v-card{
   background-color: transparent;
@@ -17,8 +17,11 @@ $color: #e8ede0;
 .font-Bebas{
   font-size: 48px;
   font-family: "Bebas Neue", cursive;
-  color: #f5cb5c;
+  color: #ffffff;
   justify-content: center;
+}
+.v-btn{
+  color: white;
 }
 .font-Archivo{
   color: #ffffff;
