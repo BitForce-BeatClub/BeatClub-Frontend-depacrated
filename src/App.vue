@@ -6,7 +6,7 @@
 <template>
   <v-app>
     <v-main>
-      <v-app-bar color="#0D1B29">
+      <!-- <v-app-bar color="#0D1B29">
         <v-img
           @click="redirectTo"
           src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/logo.png?raw=true"
@@ -19,7 +19,7 @@
         </v-spacer>
 
       </v-app-bar>
-
+-->
       <router-view />
     </v-main>
   </v-app>

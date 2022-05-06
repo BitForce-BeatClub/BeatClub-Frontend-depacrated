@@ -18,6 +18,7 @@
         prepend-icon="mdi-email"
       />
 
+
       <router-link
         to="/"
         variant="text"
@@ -33,7 +34,7 @@
         @click:append="showPassword = !showPassword"
       />
 
-      <v-btn to="/home" plain block="" color="primary">Sign in</v-btn>
+      <v-btn to="/userHome" plain block="" color="primary">Sign in</v-btn>
 
       <v-card-text class="d-flex justify-center text-h6">OR </v-card-text>
 
@@ -48,14 +49,13 @@
     </v-form>
     <!--   <pre>{{ $data }}</pre>
     -->
-    <pre>{{ $data }}</pre>
   </v-container>
 </template>
 
 <script>
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
-  name: "Login",
+  name: "signIn",
 
   data: () => ({
     showPassword: false,
