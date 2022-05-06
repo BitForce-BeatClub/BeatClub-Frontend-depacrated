@@ -48,7 +48,7 @@
               </v-avatar>
               <v-card-title > Residente </v-card-title>
             </template>
-            <v-card-text>raaaaa</v-card-text>
+            <v-card-text>Hola a todos</v-card-text>
           </v-card>
           <v-card class="mx-5 my-5" max-width="400">
             <div></div>
@@ -58,9 +58,9 @@
                   src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/image%206.png?raw=true"
                 />
               </v-avatar>
-              <v-card-title > Resentido </v-card-title>
+              <v-card-title > BizzarRap </v-card-title>
             </template>
-            <v-card-text>raaaaa</v-card-text>
+            <v-card-text>Que tal mi gente</v-card-text>
           </v-card>
           <v-card class="mx-5 my-5" max-width="400">
             <div></div>
@@ -72,7 +72,7 @@
               </v-avatar>
               <v-card-title > Rene </v-card-title>
             </template>
-            <v-card-text>raaaaa</v-card-text>
+            <v-card-text>Saludos a todos</v-card-text>
           </v-card>
 
         </v-col>
