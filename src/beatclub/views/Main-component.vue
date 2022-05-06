@@ -14,7 +14,7 @@
           ></v-img>
         </v-btn>
         <v-btn icon="mdi-magnify"> </v-btn
-        ></v-toolbar-title>
+      ></v-toolbar-title>
 
       <v-spacer></v-spacer>
       <v-btn plain to="" color="white"> Explore </v-btn>
@@ -24,14 +24,161 @@
       <v-btn class="btn-red" to="/signIn" flat=""> Star Collaborating </v-btn>
     </v-app-bar>
     <div class="img-container">
-      <h1 class="font-Bebas">
+      <h1 class="font-Bebas text-white">
         the <span style="color: #d90429">world’s #1</span> platform for<br />
         music production
       </h1>
     </div>
-    <div style="text-align: left; margin-top: 20px">
-      <h1>Recommendations</h1>
+    <div style="text-align: left; margin-top: 20px; padding-left: 60px">
+      <h1>Trending Tracks</h1>
     </div>
+    <v-row>
+      <v-card class="mx-auto my-12" max-width="374">
+        <template>
+          <v-progress-linear
+            color="deep-purple"
+            height="10"
+            indeterminate
+          ></v-progress-linear>
+        </template>
+
+        <v-img
+          height="250"
+          src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206.png?raw=true"
+        ></v-img>
+
+        <v-card-title>Cafe Badilico</v-card-title>
+
+        <v-card-text>
+          <v-row align="center" class="mx-0"> </v-row>
+
+          <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
+
+        </v-card-text>
+
+        <v-divider class="mx-4"></v-divider>
+      </v-card>
+
+      <v-card class="mx-auto my-12" max-width="374">
+        <template>
+          <v-progress-linear
+            color="deep-purple"
+            height="10"
+            indeterminate
+          ></v-progress-linear>
+        </template>
+
+        <v-img
+          height="250"
+          src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206-4.png?raw=true"
+        ></v-img>
+
+        <v-card-title>Cafe Badilico</v-card-title>
+
+        <v-card-text>
+          <v-row align="center" class="mx-0"> </v-row>
+
+          <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
+
+          <div>
+            Small plates, salads & sandwiches - an intimate setting with 12
+            indoor seats plus patio seating.
+          </div>
+        </v-card-text>
+
+        <v-divider class="mx-4"></v-divider>
+      </v-card>
+
+      <v-card class="mx-auto my-12" max-width="374">
+        <template>
+          <v-progress-linear
+            color="deep-purple"
+            height="10"
+            indeterminate
+          ></v-progress-linear>
+        </template>
+
+        <v-img
+          height="250"
+          src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206-3.png?raw=true"
+        ></v-img>
+
+        <v-card-title>Cafe Badilico</v-card-title>
+
+        <v-card-text>
+          <v-row align="center" class="mx-0"> </v-row>
+
+          <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
+
+          <div>
+            Small plates, salads & sandwiches - an intimate setting with 12
+            indoor seats plus patio seating.
+          </div>
+        </v-card-text>
+
+        <v-divider class="mx-4"></v-divider>
+      </v-card>
+
+      <v-card class="mx-auto my-12" max-width="374">
+        <template>
+          <v-progress-linear
+            color="deep-purple"
+            height="10"
+            indeterminate
+          ></v-progress-linear>
+        </template>
+
+        <v-img
+          height="250"
+          src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206-1.png?raw=true"
+        ></v-img>
+
+        <v-card-title>Cafe Badilico</v-card-title>
+
+        <v-card-text>
+          <v-row align="center" class="mx-0"> </v-row>
+
+          <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
+
+          <div>
+            Small plates, salads & sandwiches - an intimate setting with 12
+            indoor seats plus patio seating.
+          </div>
+        </v-card-text>
+
+        <v-divider class="mx-4"></v-divider>
+      </v-card>
+
+      <v-card class="mx-auto my-12" max-width="374">
+        <template>
+          <v-progress-linear
+            color="deep-purple"
+            height="10"
+            indeterminate
+          ></v-progress-linear>
+        </template>
+
+        <v-img
+          height="250"
+          src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/music/image%206-2.png?raw=true"
+        ></v-img>
+
+        <v-card-title>Cafe Badilico</v-card-title>
+
+        <v-card-text>
+          <v-row align="center" class="mx-0"> </v-row>
+
+          <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
+
+          <div>
+            Small plates, salads & sandwiches - an intimate setting with 12
+            indoor seats plus patio seating.
+          </div>
+        </v-card-text>
+
+        <v-divider class="mx-4"></v-divider>
+      </v-card>
+    </v-row>
   </div>
 </template>
 
@@ -60,11 +207,11 @@ export default {
   flex-direction: column;
   height: 45vh;
   background-image: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.1),
-    rgba(0, 0, 0, 0.1)
-  ),
-  url(src/assets/background.png);
+      0deg,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url(src/assets/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
