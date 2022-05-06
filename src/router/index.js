@@ -1,48 +1,49 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
-import firebase from "firebase/compat";
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path:'/:pathMatch(.*)*',
-      redirect:'/Main',
+      path: "/:pathMatch(.*)*",
+      redirect: "/main",
     },
+
     {
-      path: "/home",
-      name: "home",
-      component: HomeView,
-      meta:{
-        authTrue:true,
-      }
-    },
-    {
-      path: "/about",
-      name: "about",
-      component: () => import("../views/AboutView.vue"),
-    },
-    {
-      path: "/login",
-      name: "login",
+      path: "/signIn",
+      name: "signIn",
       component: () => import("../beatclub/views/SignIn-component.vue"),
     },
     {
       path: "/signup",
       name: "signUp",
-      component: () => import("../beatclub/views/SignUp-component.vue")
+      component: () => import("../beatclub/views/SignUp-component.vue"),
     },
     {
-      path: "/Main",
-      name: "Main",
-      component: () => import("../beatclub/views/Main-component.vue")
+      path: "/main",
+      name: "main",
+      component: () => import("../beatclub/views/Main-component.vue"),
     },
     {
-      path: "/UserHome",
-      name: "UserHome",
-      component: () => import("../beatclub/views/UserHome-component.vue")
+      path: "/userHome",
+      name: "userHome",
+      component: () => import("../beatclub/views/UserHome-component.vue"),
+    },
+    {
+      path: "/profile",
+      name: "profile",
+      component: () => import("../beatclub/views/Profile-component.vue"),
+    },
+    {
+      path: "/settings",
+      name: "settings",
+      component: () => import("../beatclub/views/Settings-component.vue"),
+    },
+    {
+      path: "/message",
+      name: "message",
+      component: () => import("../beatclub/views/Message-component.vue"),
     },
   ],
 });
-
 
 export default router;
