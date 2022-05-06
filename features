@@ -1,0 +1,27 @@
+Scenario: Registrarse
+When: seleccionas la opción sign up
+Then: entraras al formulario para registrarte
+
+Scenario: LLenar formulario
+When: llenas el formulario de manera correcta
+Then: estaras registrado y podras iniciar sesión
+
+Scenario: Iniciar Sesión
+When: seleccionas la opción iniciar sesión
+Then: Llenas las datos requeridos
+
+Scenario: Visualizar el Homepage
+When: inicias sesión, entraras a la interface del homepage
+Then: podras observar lo que te ofrece la aplicación web
+
+Scenario: Pefil de usuario
+When: estas en la homepage, haces click en el boton que indica el perfil de usuario
+Then: ingresaras al interfaz del perfil, donde podras observar tus datos del perfil
+
+Scenario: Editar perfil de usuario
+When: estas en perfil de usuario, haces click en el boton de editar perfil
+Then: te permitira hacer las modificaciones respectivas
+
+Scenario: Enviar mensaje
+When: el usuario quiere enviar un mensaje, hace click en el boton de mensaje en la barra de arriba
+Then: entrara a la interfaz mensaje, donde podras enviar los mensajes con el usuario respectivo
