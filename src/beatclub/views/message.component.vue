@@ -46,7 +46,7 @@
                   src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/image%2025.png?raw=true"
                 />
               </v-avatar>
-              <v-card-title > Residente </v-card-title>
+              <v-card-title> Residente </v-card-title>
             </template>
             <v-card-text>raaaaa</v-card-text>
           </v-card>
@@ -58,7 +58,7 @@
                   src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/image%206.png?raw=true"
                 />
               </v-avatar>
-              <v-card-title > Resentido </v-card-title>
+              <v-card-title> Resentido </v-card-title>
             </template>
             <v-card-text>raaaaa</v-card-text>
           </v-card>
@@ -70,11 +70,10 @@
                   src="https://github.com/BitForce-BeatClub/LandingPage/blob/main/img/image%2023.png?raw=true"
                 />
               </v-avatar>
-              <v-card-title > Rene </v-card-title>
+              <v-card-title> Rene </v-card-title>
             </template>
             <v-card-text>raaaaa</v-card-text>
           </v-card>
-
         </v-col>
         <v-col cols="12" sm="9" class="border">
           <v-container class="fill-height">
@@ -89,8 +88,8 @@
                   ]"
                 >
                   <span v-if="item.from == 'user'" class="blue--text mr-3">{{
-                      item.msg
-                    }}</span>
+                    item.msg
+                  }}</span>
                   <v-avatar
                     :color="item.from == 'user' ? 'indigo' : 'red'"
                     size="36"
@@ -98,8 +97,8 @@
                     <span class="white--text">{{ item.from[0] }}</span>
                   </v-avatar>
                   <span v-if="item.from != 'user'" class="blue--text ml-3">{{
-                      item.msg
-                    }}</span>
+                    item.msg
+                  }}</span>
                 </div>
               </v-col>
             </v-row>
@@ -118,7 +117,7 @@
                 @keypress.enter="send"
               ></v-text-field>
               <v-btn icon class="ml-4" @click="send"
-              ><v-icon>mdi-send</v-icon></v-btn
+                ><v-icon>mdi-send</v-icon></v-btn
               >
             </div>
           </v-col>
@@ -130,7 +129,7 @@
 
 <script>
 export default {
-  name: "Message-component",
+  name: "message",
   data: function () {
     return {
       chat: [],
@@ -148,7 +147,7 @@ export default {
     },
     addReply() {
       this.chat.push({
-        from: "sushant",
+        from: "Perez",
         msg: "Hmm",
       });
     },

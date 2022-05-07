@@ -44,7 +44,7 @@
 
 <script>
 export default {
-  name: "userHome",
+  name: "user_home",
 };
 </script>
 

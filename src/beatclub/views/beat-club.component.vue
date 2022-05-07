@@ -19,7 +19,7 @@
         <v-icon>mdi-account</v-icon>
       </v-btn>
 
-      <v-btn plain to="/singUp" color="white"> Sing Up </v-btn>
+      <v-btn plain to="/sing_up" color="white"> Sing Up </v-btn>
     </v-app-bar>
 
     <div class="img-container">
@@ -34,7 +34,7 @@
 <script>
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
-  name: "homebeatclub",
+  name: "beat_club",
 };
 </script>
 
