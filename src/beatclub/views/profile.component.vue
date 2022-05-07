@@ -20,7 +20,7 @@
     <v-btn plain to="/profile" color="white" prepend-icon="mdi-account">
       Hi User
     </v-btn>
-    <v-btn plain to="" color="white" prepend-icon="mdi-message">
+    <v-btn plain to="/message" color="white" prepend-icon="mdi-message">
       message
     </v-btn>
     <v-btn plain to="" color="white"> creator hub </v-btn>
@@ -58,13 +58,13 @@
 
 <script>
 export default {
-  name: "Profile",
+  name: "profile",
 };
 </script>
 
 <style lang="scss" scoped>
 @import "../src/styles/_variables.scss";
 .v-card {
-   background-color: #242423;
+  background-color: #242423;
 }
 </style>

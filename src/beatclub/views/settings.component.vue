@@ -46,7 +46,7 @@
 
 <script>
 export default {
-  name: "Settings",
+  name: "settings",
 };
 </script>
 

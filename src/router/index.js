@@ -9,34 +9,39 @@ const router = createRouter({
     },
 
     {
-      path: "/signIn",
-      name: "signIn",
-      component: () => import("../beatclub/views/SignIn-component.vue"),
+      path: "/sign_in",
+      name: "sign_in",
+      component: () => import("../beatclub/views/sign-in.compenent.vue"),
     },
     {
-      path: "/signup",
-      name: "signUp",
-      component: () => import("../beatclub/views/SignUp-component.vue"),
+      path: "/sign_up",
+      name: "sign_up",
+      component: () => import("../beatclub/views/sign-up.component.vue"),
     },
     {
       path: "/main",
       name: "main",
-      component: () => import("../beatclub/views/Main-component.vue"),
+      component: () => import("../beatclub/views/main.component.vue"),
     },
     {
-      path: "/userHome",
-      name: "userHome",
-      component: () => import("../beatclub/views/UserHome-component.vue"),
+      path: "/user_home",
+      name: "user_home",
+      component: () => import("../beatclub/views/user-home.component.vue"),
     },
     {
       path: "/profile",
       name: "profile",
-      component: () => import("../beatclub/views/Profile-component.vue"),
+      component: () => import("../beatclub/views/profile.component.vue"),
     },
     {
       path: "/settings",
       name: "settings",
-      component: () => import("../beatclub/views/Settings-component.vue"),
+      component: () => import("../beatclub/views/settings.component.vue"),
+    },
+    {
+      path: "/message",
+      name: "message",
+      component: () => import("../beatclub/views/message.component.vue"),
     },
   ],
 });

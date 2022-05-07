@@ -55,7 +55,7 @@
 
 <script>
 export default {
-  name: "signUp",
+  name: "sign_up",
   data: () => ({
     showPassword: false,
     showPassword1: false,

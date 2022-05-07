@@ -22,7 +22,7 @@
       <v-btn plain to="/profile" color="white" prepend-icon="mdi-account">
         Hi User
       </v-btn>
-      <v-btn plain to="" color="white" prepend-icon="mdi-message">
+      <v-btn plain to="/message" color="white" prepend-icon="mdi-message">
         message
       </v-btn>
       <v-btn plain to="" color="white"> creator hub </v-btn>
@@ -44,7 +44,7 @@
 
 <script>
 export default {
-  name: "userHome",
+  name: "user_home",
 };
 </script>
 
@@ -64,8 +64,8 @@ export default {
       0deg,
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.1)
-    ),
-    url(src/assets/background.png);
+  ),
+  url(src/assets/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
